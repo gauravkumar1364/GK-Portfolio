@@ -15,7 +15,7 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative bg-primary">
+      <div className="relative overflow-x-hidden bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
@@ -26,7 +26,7 @@ const App = () => {
         <Works />
         <div className="relative">
           <Contact />
-          <div className="absolute inset-0 z-[1]">
+          <div className="absolute inset-0 z-[-1]">
             <StarsCanvas />
           </div>
         </div>
